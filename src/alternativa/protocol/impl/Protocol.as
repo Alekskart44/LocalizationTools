@@ -114,7 +114,8 @@
             this.unwrapPacket(_arg_2, _local_5, CompressionType.DEFLATE_AUTO);
             return (_local_3.decode(_local_5));
         }
-		
+
+        //Testing metod (custom)
         public function encode(_arg_1:Class, _arg_2:*):ByteArray
         {
             var _local_3:ICodec = this.getCodec(this.makeCodecInfo(_arg_1));
